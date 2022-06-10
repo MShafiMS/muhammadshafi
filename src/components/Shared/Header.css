@@ -1,0 +1,23 @@
+li a:hover {
+    color: #60a5fa;
+    border-bottom: 2px solid #60a5fa;
+}
+
+.active a {
+    color: #60a5fa;
+    border-bottom: 2px solid #60a5fa;
+}
+
+.active a:hover {
+    color: #60a5fa;
+    border-bottom: 2px solid #60a5fa;
+}
+
+nav {
+    z-index: 10
+}
+
+nav.scrolled {
+    @apply shadow-2xl;
+    border-bottom: 0px;
+}
