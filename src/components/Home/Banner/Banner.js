@@ -6,17 +6,20 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
+import { IoIosSend } from "react-icons/io";
+import { DiSublime } from "react-icons/di";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Banner = () => {
   return (
-    <div>
-      <div className="hero min-h-screen bg-base-300">
+    <div className="pt-24">
+      <div className="hero bg-base-300">
         <div className="hero-content lg:mr-10 flex-col lg:flex-row">
+          <div className="svg w-full">
           <img src={hellow} />
+          </div>
           <div className="lg:ml-20">
-            <h1 className="mb-5 mr-24 lg:mr-48 text-5xl font-bold">
+            <h1 className="mb-5 mr-24 lg:mr-48 text-4xl font-bold">
               Hi, I'm <span className="text-secondary">Shafi</span>
             </h1>
             <AnimationOnScroll
@@ -29,7 +32,7 @@ const Banner = () => {
                 <Typical
                   className="text-secondary"
                   steps={[
-                    "Web Frontend Developer",
+                    "Frontend Developer",
                     1000,
                     "MERN Stack developer",
                     1000,
@@ -82,8 +85,11 @@ const Banner = () => {
               animateOnce={true}
               animateIn="animate__fadeInUp"
             >
-              <a href="#contact" className="btn btn-secondary" to="/">
-                Get In Touch <FaArrowRight className="ml-4"></FaArrowRight>
+              <a href="#contact" className="btn btn-secondary text-white" to="/">
+                Get In Touch <span className="pl-4 text-xl"><IoIosSend /></span>
+              </a>
+              <a href="#contact" className="btn btn-secondary ml-4 text-white" to="/about">
+                About Me<span className="pl-4 text-xl text-white"><DiSublime /></span>
               </a>
             </AnimationOnScroll>
           </div>

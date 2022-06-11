@@ -4,22 +4,19 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const About = () => {
   return (
-    <div className="">
+    <div className="mt-24">
       <h1 className="text-center text-5xl mt-10">About Me</h1>
-      
+      <div className="divider">
+       
+      </div>
       <div className="hero lg:my-20 my-10">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <AnimationOnScroll initiallyVisible={true}
-  animateOnce={true} animateIn="animate__fadeInLeft">
+        <div className="hero-content flex-col lg:flex-row lg:flex-row-reverse">
             <img
               src="https://avatars.githubusercontent.com/u/81031854?v=4"
               className="lg:mx-8 lg:max-w-lg lg:w-96 w-80 rounded-lg shadow-2xl"
             />
-          </AnimationOnScroll>
-          <AnimationOnScroll initiallyVisible={true}
-  animateOnce={true} animateIn="animate__fadeInRight">
-            <div className="lg:mx-20 lg:text-left text-center">
-              <h1 className="text-3xl font-bold">
+            <div className="lg:mx-20 lg:text-left">
+              <h1 className="text-3xl font-bold text-secondary">
                 Hello, I'm Muhammad Shafi{" "}
                 {/* <Typical
                   className="text-secondary"
@@ -35,6 +32,11 @@ const About = () => {
                   wrapper="n"
                 /> */}
               </h1>
+              <AnimationOnScroll
+              initiallyVisible={true}
+              animateOnce={true}
+              animateIn="animate__fadeInUp"
+            >
               <p className="py-6">
                 I am a Front End Developer based in
                 Bangladesh. I describe myself as a passionate developer who
@@ -42,24 +44,36 @@ const About = () => {
                 responsive website design. Would like to build a successful
                 career in the field of web development.
               </p>
+              </AnimationOnScroll>
+              <div className="text- ">
               <div className="flex-row mb-4">
-                <p className="text-xl">Name</p>
-                <p>Muhammad Shafi</p>
+                <p><span className="text-xl text-secondary">Name: </span>Muhammad Shafi</p>
               </div>
               <div className="flex-row mb-4">
-                <p className="text-xl">Address</p>
-                <p>Chattogram, Bangladesh</p>
+                <p><span className="text-xl text-secondary">Age: </span>22</p>
               </div>
               <div className="flex-row mb-4">
-                <p className="text-xl">Email</p>
-                <p>dev.muhammadshafi@gmail.com</p>
+                <p><span className="text-xl text-secondary">Nationality: </span>Bangladeshi</p>
               </div>
               <div className="flex-row mb-4">
-                <p className="text-xl">Phone</p>
-                <p>0179*****13</p>
+                <p><span className="text-xl text-secondary">Status: </span>Available</p>
+              </div>
+              <div className="flex-row mb-4">
+                
+                <p><span className="text-xl text-secondary">Address: </span>Chattogram, Bangladesh</p>
+              </div>
+              <div className="flex-row mb-4">
+                
+                <p><span className="text-xl text-secondary">Email: </span>dev.muhammadshafi@gmail.com</p>
+              </div>
+              <div className="flex-row mb-4">
+                <p><span className="text-xl text-secondary">Phone: </span>0179*****13</p>
+              </div>
+              <div className="flex-row mb-4">
+                <p><span className="text-xl text-secondary">Language: </span>Bengali, English and Hindi</p>
+              </div>
               </div>
             </div>
-          </AnimationOnScroll>
         </div>
       </div>
     </div>

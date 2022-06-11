@@ -1,6 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { FaDownload } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -32,7 +33,7 @@ const Hero = () => {
           >
             <div className="lg:mx-20 lg:text-left text-center">
               <h1 className="text-3xl font-bold">
-                I'm Shafi and I'm a{" "}
+                I'm Shafi and I'm a{" "} <br />
                 <Typical
                   className="text-secondary"
                   steps={[
@@ -59,7 +60,7 @@ const Hero = () => {
                 className="btn btn-secondary text-white"
                 to="/"
               >
-                Download Resume
+                Download Resume <span className="pl-4"><FaDownload /></span>
               </a>
             </div>
           </AnimationOnScroll>

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import useProjects from "../../../Hooks/useProjects";
 import Project from "./Project";
+import { FaConnectdevelop } from "react-icons/fa";
 
 const Projects = () => {
     const [projects, setProjects] = useProjects();
@@ -21,7 +22,7 @@ const Projects = () => {
                     }
                 </div>
                 <div className='text-center my-10'>
-                <Link className='btn btn-secondary text-white' to="/allprojects">See All Projects</Link>
+                <Link className='btn btn-secondary text-white' to="/allprojects">See All Projects <span className="pl-4 text-xl"><FaConnectdevelop /></span></Link>
                 </div>
             </div>
     </div>

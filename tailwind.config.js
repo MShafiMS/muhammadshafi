@@ -3,6 +3,11 @@ module.exports = {
   theme: {
     extend: {},
   },
+  variants: {
+    extend: {
+      visibility: ["group-hover"],
+    },
+  },
   daisyui: {
     themes: [
       {
@@ -20,5 +25,6 @@ module.exports = {
       "cupcake",
     ],
   },
+  
   plugins: [require("daisyui")],
 }

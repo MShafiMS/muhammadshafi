@@ -1,4 +1,5 @@
 import React from "react";
+import { GiArmoredBoomerang } from "react-icons/gi";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { Link } from "react-router-dom";
 
@@ -16,37 +17,37 @@ const Skills = () => {
             <div className="lg:ml-20">
               <p>HTML 90%</p>
               <progress
-                className="progress progress-secondary w-96"
+                className="progress progress-secondary w-80 lg:w-96"
                 value="90"
                 max="100"
               ></progress>
               <p>CSS 85%</p>
               <progress
-                className="progress progress-secondary w-96"
+                className="progress progress-secondary w-full lg:w-96"
                 value="85"
                 max="100"
               ></progress>
               <p>JAVASCRIPT 70%</p>
               <progress
-                className="progress progress-secondary w-96"
+                className="progress progress-secondary w-80 lg:w-96"
                 value="70"
                 max="100"
               ></progress>
               <p>REACT 85%</p>
               <progress
-                className="progress progress-secondary w-96"
+                className="progress progress-secondary w-80 lg:w-96"
                 value="85"
                 max="100"
               ></progress>
               <p>NODE 55%</p>
               <progress
-                className="progress progress-secondary w-96"
+                className="progress progress-secondary w-80 lg:w-96"
                 value="55"
                 max="100"
               ></progress>
               <p>MONGODB 55%</p>
               <progress
-                className="progress progress-secondary w-96"
+                className="progress progress-secondary w-80 lg:w-96"
                 value="55"
                 max="100"
               ></progress>
@@ -66,7 +67,7 @@ const Skills = () => {
                 code and i want to make a successful career in this feild.
               </p>
               <Link className="btn btn-secondary text-white" to="/skills">
-                Read More
+                Read More<span className="pl-4 "><GiArmoredBoomerang /></span>
               </Link>
             </div>
           </AnimationOnScroll>

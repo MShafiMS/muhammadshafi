@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { IoIosSend } from "react-icons/io";
 
 const Contact = () => {
   const form = useRef();
@@ -35,7 +36,7 @@ const Contact = () => {
       <div className="divider">
         <span className="text-2xl text-secondary">get in touch</span>
       </div>
-      <div className="hero my-10">
+      <div className="hero mt-10 pb-10">
         <div className="hero-content flex-col lg:flex-row lg:ml-20">
           <AnimationOnScroll initiallyVisible={true}
   animateOnce={true} animateIn="animate__fadeInLeft">
@@ -107,7 +108,7 @@ const Contact = () => {
                       value="Send"
                       className="btn btn-secondary text-white"
                     >
-                      Send Message
+                      Send Message<span className="pl-4 text-xl"><IoIosSend /></span>
                     </button>
                   </div>
                 </div>
