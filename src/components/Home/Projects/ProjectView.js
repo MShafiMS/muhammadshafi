@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaGithub, FaLocationArrow } from "react-icons/fa";
-import { useParams } from "react-router-dom";
+import { IoIosArrowBack } from "react-icons/io";
+import { Link, useParams } from "react-router-dom";
 import ReadMoreReact from "read-more-react/dist/components/ReadMoreReact";
 
 const ProjectView = () => {
@@ -19,6 +20,7 @@ const ProjectView = () => {
       <div class="hero min-h-screen bg-base-100">
         <div class="hero-content grid lg:grid-cols-2 grid-cols-1">
           <div className="container mx-auto">
+          
             <div className="grid-cols-3 p-20 space-y-2 bg-secondary lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3">
               <div class="w-full rounded">
                 <img src={projectData?.img} alt="image" />
@@ -96,6 +98,7 @@ const ProjectView = () => {
           </div>
         </div>
       </div>
+      <Link to={'/allprojects'} className='btn btn-secondary text-white opacity-80 ml-6 mb-6'><IoIosArrowBack /></Link>
     </div>
   );
 };

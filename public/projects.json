@@ -5,7 +5,7 @@
     "type": "Tools Manufacturer",
     "tools": "React, TailwindCSS, DaisyUI, React-Router-Dom, Firebase Authentication, Private Route, Node, Express, JWT, MongoDB",
     "description": "This is a full-stack Product Manufacturer Website. Users need to log in with Google with Firebase Authentication. Dashboard with nested route for User and Admin. Admin can manage orders, quantity, add or delete. Items and reviews can be added to this website. Items can be ordered by payment method. ",
-    "img": "https://i.ibb.co/vwWr0Nn/12.png",
+    "img": "https://i.ibb.co/cFsB7zK/ezgif-3-dc3601e80d.gif",
     "client": "https://github.com/MShafiMS/manufacturer-website-frontend",
     "server": "https://github.com/MShafiMS/manufacturer-website-backend",
     "live": "https://tools-manufacturer-f4df9.web.app/"
@@ -16,7 +16,7 @@
     "type": "Warehouse Management",
     "tools": "React, React Bootstrap, React-Router-Dom, Firebase Authentication, Private Route, Node, Express, JWT, MongoDB",
     "description": "This is a full-stack Warehouse Management Website that multiple users can use. Users are also allowed to login and sign up. Users can access it through social network(Google). Users can add or delete items from inventory. Users can update the quantity of products and sell information. A authorized user can restock the quantity of products and manage his products",
-    "img": "https://i.ibb.co/DLGmBFT/11.png",
+    "img": "https://i.ibb.co/nCgM6bG/ezgif-3-b940ece4ce.gif",
     "client": "https://github.com/MShafiMS/warehouse-management-website-frontend",
     "server": "https://github.com/MShafiMS/warehouse-management-website-backend",
     "live": "https://warehose-management-website.web.app/"
@@ -27,7 +27,7 @@
     "type": "Independent Service Provider",
     "tools": "React, React Bootstrap, React-Router-Dom, Firebase Authentication, Private Route",
     "description": "This is independent service provider website. Any independent service provider can use this. It helps him to service people in online.",
-    "img": "https://i.ibb.co/zHYJVgh/10.png",
+    "img": "https://i.ibb.co/nRwM9TC/ezgif-3-7c90c84d77.gif",
     "client": "https://github.com/MShafiMS/independent-service-probider",
     "live": "https://independent-service-prov-403df.web.app"
   },

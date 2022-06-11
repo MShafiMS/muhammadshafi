@@ -4,6 +4,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 import { Link } from "react-router-dom";
 import {
   FaBootstrap,
+  FaChrome,
   FaCss3Alt,
   FaFigma,
   FaGit,
@@ -12,17 +13,21 @@ import {
   FaHtml5,
   FaNodeJs,
   FaReact,
+  FaStripe,
+  FaStripeS,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { TbBrandReactNative } from "react-icons/tb";
+import { TbApi, TbBrandReactNative } from "react-icons/tb";
 import {
   SiAdobeillustrator,
   SiAdobephotoshop,
   SiAdobexd,
   SiExpress,
   SiFirebase,
+  SiHeroku,
   SiJavascript,
   SiMongodb,
+  SiNetlify,
   SiReactrouter,
   SiTailwindcss,
   SiTypescript,
@@ -40,47 +45,9 @@ const Skills = () => {
         animateIn="animate__fadeInUp"
       >
         <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 content-center lg:mx-20 lg:py-10">
-          <div className=" mx-auto my-3 ">
-            <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
-                <p className="text-5xl mx-6 my-6">
-                  <FaHtml5 />
-                </p>
-              </div>
-            </div>
-            <p className="text-center text-xl mt-3 ">HTML5</p>
-          </div>
-          <div className=" mx-auto my-3 ">
-            <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
-                <p className="text-5xl mx-6 my-6">
-                  <FaCss3Alt />
-                </p>
-              </div>
-            </div>
-            <p className="text-center text-xl mt-3 ">CSS3</p>
-          </div>
-          <div className=" mx-auto my-3 ">
-            <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
-                <p className="text-5xl mx-6 my-6">
-                  <FaBootstrap />
-                </p>
-              </div>
-            </div>
-            <p className="text-center text-xl mt-3 ">Bootstrap</p>
-          </div>
-          <div className=" mx-auto my-3 ">
-            <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
-                <p className="text-5xl mx-6 my-6">
-                  <SiTailwindcss />
-                </p>
-              </div>
-            </div>
-            <p className="text-center text-xl mt-3 ">TailwindCSS</p>
-          </div>
-          <div className=" mx-auto my-3 ">
+          <div className="mx-auto">
+            <p className="text-xl mb-8">Language</p>
+          <div className="my-3 ">
             <div class="avatar">
               <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
@@ -88,9 +55,12 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 ">Javascript</p>
+            <p className="text-center mt-3 ">Javascript</p>
           </div>
-          <div className=" mx-auto my-3 ">
+          </div>
+          <div className="mx-auto">
+          <p className="text-xl mb-8">Frontend</p>
+          <div className="my-3 ">
             <div class="avatar">
               <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
@@ -98,19 +68,52 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 ">React</p>
+            <p className="text-center mt-3 ">React</p>
           </div>
-          <div className=" mx-auto my-3 ">
+          <div className="my-3 ">
             <div class="avatar">
               <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
-                  <SiFirebase />
+                  <FaHtml5 />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 ">Firebase</p>
+            <p className="text-center mt-3 ">HTML5</p>
           </div>
-          <div className=" mx-auto my-3 ">
+          <div className="my-3 ">
+            <div class="avatar">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
+                <p className="text-5xl mx-6 my-6">
+                  <FaCss3Alt />
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-3 ">CSS3</p>
+          </div>
+          <div className="my-3 ">
+            <div class="avatar">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
+                <p className="text-5xl mx-6 my-6">
+                  <FaBootstrap />
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-3 ">Bootstrap</p>
+          </div>
+          <div className="my-3 ">
+            <div class="avatar">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
+                <p className="text-5xl mx-6 my-6">
+                  <SiTailwindcss />
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-3 ">TailwindCSS</p>
+          </div>
+          </div>
+          <div className="mx-auto">
+          <p className="text-xl mb-8">Backend</p>
+          <div className="my-3 ">
             <div class="avatar">
               <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
@@ -118,9 +121,9 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 ">NodeJs</p>
+            <p className="text-center mt-3 ">NodeJs</p>
           </div>
-          <div className=" mx-auto my-3 ">
+          <div className="my-3 ">
             <div class="avatar">
               <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
@@ -128,9 +131,9 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 ">ExpressJs</p>
+            <p className="text-center mt-3 ">ExpressJs</p>
           </div>
-          <div className=" mx-auto my-3 ">
+          <div className="my-3 ">
             <div class="avatar">
               <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
@@ -138,9 +141,42 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 ">MongoDB</p>
+            <p className="text-center mt-3 ">MongoDB</p>
           </div>
-          <div className=" mx-auto my-3 ">
+          <div className="my-3 ">
+            <div class="avatar">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
+                <p className="text-5xl mx-6 my-6">
+                  <TbApi />
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-3 ">Rest Api</p>
+          </div>
+          <div className="my-3 ">
+            <div class="avatar">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
+                <p className="text-5xl mx-6 my-6">
+                  <FaStripe />
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-3 ">Stripe Payment</p>
+          </div>
+          </div>
+          <div className="mx-auto">
+          <p className="text-xl mb-8">Platform</p>
+          <div className="my-3 ">
+            <div class="avatar">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
+                <p className="text-5xl mx-6 my-6">
+                  <SiFirebase />
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-3 ">Firebase</p>
+          </div>
+          <div className="my-3 ">
             <div class="avatar">
               <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
@@ -148,19 +184,9 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 ">Git</p>
+            <p className="text-center mt-3 ">Git</p>
           </div>
-          <div className=" mx-auto my-3 ">
-            <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
-                <p className="text-5xl mx-6 my-6">
-                  <SiVisualstudiocode />
-                </p>
-              </div>
-            </div>
-            <p className="text-center text-xl mt-3 ">VS Code</p>
-          </div>
-          <div className=" mx-auto my-3 ">
+          <div className="my-3 ">
             <div class="avatar">
               <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
@@ -168,9 +194,52 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 ">Github</p>
+            <p className="text-center mt-3 ">Github</p>
           </div>
-          <div className=" mx-auto my-3 ">
+          <div className="my-3 ">
+            <div class="avatar">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
+                <p className="text-5xl mx-6 my-6">
+                  <SiHeroku />
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-3 ">Heroku</p>
+          </div>
+          <div className="my-3 ">
+            <div class="avatar">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
+                <p className="text-5xl mx-6 my-6">
+                  <SiNetlify />
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-3 ">Netlify</p>
+          </div>
+          </div>
+          <div className="mx-auto">
+          <p className="text-xl mb-8">Tools</p>
+          <div className="my-3 ">
+            <div class="avatar">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
+                <p className="text-5xl mx-6 my-6">
+                  <SiVisualstudiocode />
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-3 ">VS Code</p>
+          </div>
+          <div className="my-3 ">
+            <div class="avatar">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
+                <p className="text-5xl mx-6 my-6">
+                  <FaChrome />
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-3 ">Dev Tool</p>
+          </div>
+          <div className="my-3 ">
             <div class="avatar">
               <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
@@ -178,9 +247,9 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 ">Figma</p>
+            <p className="text-center mt-3 ">Figma</p>
           </div>
-          <div className=" mx-auto my-3 ">
+          <div className="my-3 ">
             <div class="avatar">
               <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
@@ -188,7 +257,8 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 ">Photoshop</p>
+            <p className="text-center mt-3 ">Photoshop</p>
+          </div>
           </div>
         </div>
       </AnimationOnScroll>
