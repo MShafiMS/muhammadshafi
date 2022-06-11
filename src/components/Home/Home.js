@@ -15,7 +15,7 @@ const Home = () => {
             <Skills></Skills>
             <Projects></Projects>
             {/* <Client></Client> */}
-            <a href='#top' className='btn btn-secondary fixed bottom-4 right-4 text-white opacity-60'><BiUpArrow /></a>
+            <a href='#top' className='btn btn-secondary fixed z-50 bottom-4 right-4 text-white opacity-60'><BiUpArrow /></a>
             <Contact></Contact>
         </div>
     );

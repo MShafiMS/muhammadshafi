@@ -89,7 +89,7 @@ const Banner = () => {
               <a href="#contact" className="btn btn-secondary text-white" to="/">
                 Get In Touch <span className="pl-4 text-xl"><IoIosSend /></span>
               </a>
-              <Link className="btn btn-secondary ml-4 text-white" to="/about">
+              <Link className="btn btn-secondary ml-4 mt-4 text-white" to="/about">
                 About Me<span className="pl-4 text-xl text-white"><DiSublime /></span>
               </Link>
             </AnimationOnScroll>
