@@ -8,7 +8,7 @@ const Project = ({ project }) => {
   const { id, name, img, type, tools, description, live, client, server } =
     project;
   return (
-    <div>
+    <div className="w-80 lg:w-full">
       {/* <AnimationOnScroll
             initiallyVisible={true}
             animateOnce={true}

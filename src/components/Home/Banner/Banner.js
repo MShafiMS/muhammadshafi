@@ -9,10 +9,11 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { IoIosSend } from "react-icons/io";
 import { DiSublime } from "react-icons/di";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <div className="pt-24">
+    <div id="top" className="pt-24">
       <div className="hero bg-base-300">
         <div className="hero-content lg:mr-10 flex-col lg:flex-row">
           <div className="svg w-full">
@@ -88,9 +89,9 @@ const Banner = () => {
               <a href="#contact" className="btn btn-secondary text-white" to="/">
                 Get In Touch <span className="pl-4 text-xl"><IoIosSend /></span>
               </a>
-              <a href="#contact" className="btn btn-secondary ml-4 text-white" to="/about">
+              <Link className="btn btn-secondary ml-4 text-white" to="/about">
                 About Me<span className="pl-4 text-xl text-white"><DiSublime /></span>
-              </a>
+              </Link>
             </AnimationOnScroll>
           </div>
         </div>
