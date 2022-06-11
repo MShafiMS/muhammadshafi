@@ -44,153 +44,153 @@ const Skills = () => {
         <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 content-center lg:mx-20 lg:my-10">
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <FaHtml5 />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">HTML5</p>
+            <p className="text-center text-xl mt-3 ">HTML5</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <FaCss3Alt />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">CSS3</p>
+            <p className="text-center text-xl mt-3 ">CSS3</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <FaBootstrap />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">Bootstrap</p>
+            <p className="text-center text-xl mt-3 ">Bootstrap</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <SiTailwindcss />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">TailwindCSS</p>
+            <p className="text-center text-xl mt-3 ">TailwindCSS</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <SiJavascript />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">Javascript</p>
+            <p className="text-center text-xl mt-3 ">Javascript</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <FaReact />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">React</p>
+            <p className="text-center text-xl mt-3 ">React</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <SiFirebase />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">Firebase</p>
+            <p className="text-center text-xl mt-3 ">Firebase</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <FaNodeJs />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">NodeJs</p>
+            <p className="text-center text-xl mt-3 ">NodeJs</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <SiExpress />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">ExpressJs</p>
+            <p className="text-center text-xl mt-3 ">ExpressJs</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <SiMongodb />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">MongoDB</p>
+            <p className="text-center text-xl mt-3 ">MongoDB</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <FaGitAlt />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">Git</p>
+            <p className="text-center text-xl mt-3 ">Git</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <SiVisualstudiocode />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">VS Code</p>
+            <p className="text-center text-xl mt-3 ">VS Code</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <FaGithub />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">Github</p>
+            <p className="text-center text-xl mt-3 ">Github</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <FaFigma />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">Figma</p>
+            <p className="text-center text-xl mt-3 ">Figma</p>
           </div>
           <div className=" mx-auto my-3 ">
             <div class="avatar">
-              <div class="w-24 rounded-full ring ring-0 ring-offset-neutral ring-offset-1">
+              <div class="w-24 rounded-full ring ring-0  ring-offset-1">
                 <p className="text-5xl mx-6 my-6">
                   <SiAdobephotoshop />
                 </p>
               </div>
             </div>
-            <p className="text-center text-xl mt-3 text-neutral">Photoshop</p>
+            <p className="text-center text-xl mt-3 ">Photoshop</p>
           </div>
         </div>
       </AnimationOnScroll>

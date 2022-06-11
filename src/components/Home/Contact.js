@@ -76,14 +76,14 @@ const Contact = () => {
                       type="text"
                       name="user_name"
                       placeholder="Name"
-                      className="input input-bordered input-secondary w-full max-w-xs mr-4"
+                      className="input input-bordered input-secondary w-full max-w-xs mr-4 bg-base-200"
                     />
                     <input
                       required
                       type="text"
                       name="user_email"
                       placeholder="Email"
-                      className="input input-bordered input-secondary w-full max-w-xs"
+                      className="input input-bordered input-secondary w-full max-w-xs bg-base-200"
                     />
                   </div>
                   <div className="form-control">
@@ -91,13 +91,13 @@ const Contact = () => {
                       required
                       type="text"
                       placeholder="Subject"
-                      className="input input-bordered input-secondary w-full max-w-xs"
+                      className="input input-bordered input-secondary w-full max-w-xs bg-base-200"
                     />
                   </div>
                   <div className="form-control">
                     <textarea
                       name="message"
-                      className="textarea textarea-secondary"
+                      className="textarea textarea-secondary bg-base-200"
                       placeholder="Message.."
                       required
                     ></textarea>
