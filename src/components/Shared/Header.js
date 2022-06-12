@@ -66,7 +66,7 @@ const Header = () => {
             </label>
             <ul
               tabIndex="0"
-              className="menu text-white dropdown-content mt-3 p-2 shadow bg-neutral rounded-box w-52 right-0 bg-opacity-100 backdrop-filter backdrop-blur-lg"
+              className="menu text-white dropdown-content mt-3 p-2 shadow bg-neutral rounded-box w-52 right-0 bg-opacity-90 backdrop-filter backdrop-blur-lg"
             >
              <li className={splitLocation[1] === "" ? "active" : ""}>
               <Link to="/">Home</Link>

@@ -39,14 +39,9 @@ const Skills = () => {
     <div className="pt-24 bg-base-300">
       <h1 className="text-center text-5xl mt-10">My Skills</h1>
       <div className="divider"></div>
-      <AnimationOnScroll
-        initiallyVisible={true}
-        animateOnce={true}
-        animateIn="animate__fadeInUp"
-      >
-        <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 content-center lg:mx-20 lg:py-10">
-          <div className="mx-auto">
-            <p className="text-xl mb-8">Language</p>
+      <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 content-center lg:mx-20 lg:py-10">
+        <div className="mx-auto border p-10 mb-4">
+          <p className="text-xl mb-8">Language</p>
           <div className="my-3 ">
             <div class="avatar">
               <div class="w-24 rounded-full ring ring-0  ring-offset-1">
@@ -57,8 +52,8 @@ const Skills = () => {
             </div>
             <p className="text-center mt-3 ">Javascript</p>
           </div>
-          </div>
-          <div className="mx-auto">
+        </div>
+        <div className="mx-auto border p-10 mb-4">
           <p className="text-xl mb-8">Frontend</p>
           <div className="my-3 ">
             <div class="avatar">
@@ -78,7 +73,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center mt-3 ">HTML5</p>
+            <p className="text-center mt-3 ">HTML</p>
           </div>
           <div className="my-3 ">
             <div class="avatar">
@@ -88,7 +83,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center mt-3 ">CSS3</p>
+            <p className="text-center mt-3 ">CSS</p>
           </div>
           <div className="my-3 ">
             <div class="avatar">
@@ -110,8 +105,8 @@ const Skills = () => {
             </div>
             <p className="text-center mt-3 ">TailwindCSS</p>
           </div>
-          </div>
-          <div className="mx-auto">
+        </div>
+        <div className="mx-auto border p-10 mb-4">
           <p className="text-xl mb-8">Backend</p>
           <div className="my-3 ">
             <div class="avatar">
@@ -121,7 +116,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center mt-3 ">NodeJs</p>
+            <p className="text-center mt-3 ">Node</p>
           </div>
           <div className="my-3 ">
             <div class="avatar">
@@ -131,7 +126,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center mt-3 ">ExpressJs</p>
+            <p className="text-center mt-3 ">Express</p>
           </div>
           <div className="my-3 ">
             <div class="avatar">
@@ -161,10 +156,10 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <p className="text-center mt-3 ">Stripe Payment</p>
+            <p className="text-center mt-3 ">Stripe</p>
           </div>
-          </div>
-          <div className="mx-auto">
+        </div>
+        <div className="mx-auto border p-10 mb-4">
           <p className="text-xl mb-8">Platform</p>
           <div className="my-3 ">
             <div class="avatar">
@@ -216,8 +211,8 @@ const Skills = () => {
             </div>
             <p className="text-center mt-3 ">Netlify</p>
           </div>
-          </div>
-          <div className="mx-auto">
+        </div>
+        <div className="mx-auto border p-10 mb-4">
           <p className="text-xl mb-8">Tools</p>
           <div className="my-3 ">
             <div class="avatar">
@@ -259,9 +254,8 @@ const Skills = () => {
             </div>
             <p className="text-center mt-3 ">Photoshop</p>
           </div>
-          </div>
         </div>
-      </AnimationOnScroll>
+      </div>
     </div>
   );
 };

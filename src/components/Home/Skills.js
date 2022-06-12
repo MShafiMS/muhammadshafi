@@ -39,7 +39,7 @@ const Skills = () => {
       <AnimationOnScroll
         initiallyVisible={true}
         animateOnce={true}
-        animateIn="animate__fadeInUp"
+        animateIn="animate__zoomIn"
       >
         <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 content-center lg:mx-20 lg:my-10">
           <div className=" mx-auto my-3 ">

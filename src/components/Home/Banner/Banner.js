@@ -35,9 +35,9 @@ const Banner = () => {
                   steps={[
                     "Frontend Developer",
                     1000,
-                    "MERN Stack developer",
+                    "React Developer",
                     1000,
-                    "UI/UX Designer",
+                    "React Developer",
                     1000,
                   ]}
                   loop={Infinity}

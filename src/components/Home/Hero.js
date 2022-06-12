@@ -26,11 +26,6 @@ const Hero = () => {
               </div>
             </div>
           </AnimationOnScroll>
-          <AnimationOnScroll
-            initiallyVisible={true}
-            animateOnce={true}
-            animateIn="animate__fadeInRight"
-          >
             <div className="lg:mx-20 lg:text-left text-center">
               <h1 className="text-3xl font-bold">
                 I'm Shafi and I'm a{" "} <br />
@@ -39,9 +34,9 @@ const Hero = () => {
                   steps={[
                     "Frontend Developer",
                     1000,
-                    "MERN Stack developer",
+                    "React Developer",
                     1000,
-                    "UI/UX Designer",
+                    "React Developer",
                     1000,
                   ]}
                   loop={Infinity}
@@ -63,7 +58,6 @@ const Hero = () => {
                 Download Resume <span className="pl-4"><FaDownload /></span>
               </a>
             </div>
-          </AnimationOnScroll>
         </div>
       </div>
     </div>
